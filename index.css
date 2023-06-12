@@ -5,6 +5,10 @@
     display: flex;
 }
 
+.searchButton {
+    cursor: pointer;
+}
+
 .searchContainer input {
     border: 1px solid #ccc;
     border-radius: 10px;
@@ -54,6 +58,21 @@
     color: white;
 }
 
-.result .description {
-    text-align: center;
+.result .description .section {
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.result .description .section .title {
+    background: gainsboro;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.result .description .section.close .list {
+    display: none;
 }
